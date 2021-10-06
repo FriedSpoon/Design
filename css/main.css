@@ -258,7 +258,7 @@ ul li{
    padding-left: 1rem;
 }
 
-@media screen and (max-width: 60rem) {
+@media screen and (max-width: 60em) {
   main {
 
     grid-template-columns: 1fr;
