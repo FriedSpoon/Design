@@ -15,7 +15,7 @@ body {
 main {
   height: 100%;
   display:grid;
-  grid-template-columns: 4fr 4fr 1fr 1fr;
+  grid-template-columns: repeat(4, auto);
   grid-gap: 1rem;
  
 }
@@ -48,7 +48,7 @@ main {
 
 .container1{
   display:grid;
-  grid-template-rows: .5fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(4, auto);
   margin-left: 1rem;
   
 }
@@ -92,7 +92,7 @@ main {
 
 .container2{
   display:grid;
-   grid-template-rows: .5fr 1fr 1fr 1fr;
+   grid-template-rows: repeat(4, auto);
 
  
 }
@@ -213,7 +213,7 @@ ul li{
   list-style: none;
 
 
-  font-size: 4rem;
+  font-size: 2rem;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 2rem;
