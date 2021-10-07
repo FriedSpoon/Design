@@ -124,8 +124,7 @@ main {
   border-radius:1rem;
   font-size:.9rem;
   padding-left:1rem;
-  margin-top: 10rem;
-}
+  }
 
   .messagebox{
     background-color:#50203A;
@@ -158,6 +157,7 @@ ul li{
    
    border-radius: .5rem;
       background-color:#5F2A47;
+      align-self: start;
   
 
  margin-top:1rem;
